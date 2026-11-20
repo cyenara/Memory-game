@@ -44,6 +44,10 @@ Open the local URL displayed in your terminal.
 4. Find all 8 pairs to win. Your moves are counted every two-card attempt.
 5. Press **New Game** to start again.
 
+## Screenshot
+
+![Memory Game Screenshot](screenshot1.png)(screenshot2.png)(screenshot3.png)
+
 ## About
 
 A small portfolio project for practicing React components, custom hooks, state management, array shuffling, event handling and responsive design.
