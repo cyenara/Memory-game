@@ -1,6 +1,6 @@
-# 🧠 Memory Game
+# Memory Cards Game
 
-A colorful, browser-based memory matching game built with **React**, **JavaScript**, and **Vite**. Flip cards, remember the symbols, and match all eight pairs in as few moves as possible.
+A browser-based memory matching game built with **React**, **JavaScript**, and **Vite**. Flip cards, remember the symbols, and match all eight pairs in as few moves as possible.
 
 **[🎮 Play Memory Game](https://cyenara.github.io/Memory-game/)** · [Source code](https://github.com/cyenara/Memory-game)
 
@@ -8,14 +8,11 @@ A colorful, browser-based memory matching game built with **React**, **JavaScrip
 
 ## Features
 
-- 16 cards featuring 8 matching emoji pairs
-- Randomly shuffled cards at the start of each game
-- Card flip animation and visual feedback for matched pairs
-- Move counter and score tracking
-- Brief reveal before non-matching cards flip back
-- Win message after all pairs have been matched
-- New Game button to restart with a fresh shuffle
-- Responsive layout for desktop and mobile screens
+- Randomized cards with matching logic
+- Card flip animations and visual feedback
+- Score and move tracking
+- Game reset and win detection
+- Responsive design
 
 ## Tech stack
 
