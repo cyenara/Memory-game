@@ -36,13 +36,6 @@ npm run dev
 
 Open the local URL displayed in your terminal.
 
-## Production build
-
-```bash
-npm run build
-npm run preview
-```
-
 ## How to play
 
 1. Click a card to reveal its emoji.
