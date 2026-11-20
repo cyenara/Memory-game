@@ -46,7 +46,7 @@ Open the local URL displayed in your terminal.
 
 ## Screenshot
 
-![Memory Game Screenshot](screenshot1.png)(screenshot2.png)(screenshot3.png)
+![Memory Game Screenshot](screenshot1.png)
 
 ## About
 
