@@ -1,16 +1,59 @@
-# React + Vite
+# 🧠 Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A colorful, browser-based memory matching game built with **React**, **JavaScript**, and **Vite**. Flip cards, remember the symbols, and match all eight pairs in as few moves as possible.
 
-Currently, two official plugins are available:
+**[🎮 Play Memory Game](https://cyenara.github.io/Memory-game/)** · [Source code](https://github.com/cyenara/Memory-game)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Live demo requires GitHub Pages to be enabled (Settings → Pages → Source: GitHub Actions).
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 16 cards featuring 8 matching emoji pairs
+- Randomly shuffled cards at the start of each game
+- Card flip animation and visual feedback for matched pairs
+- Move counter and score tracking
+- Brief reveal before non-matching cards flip back
+- Win message after all pairs have been matched
+- New Game button to restart with a fresh shuffle
+- Responsive layout for desktop and mobile screens
 
-## Expanding the ESLint configuration
+## Tech stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — reusable UI components and state updates
+- **JavaScript** — matching logic, shuffling and score tracking
+- **CSS** — custom styling, animations and responsive layout
+- **Vite** — development server and production build
+
+Game logic is separated into a custom React hook, `src/hooks/useGameLogic.js`.
+
+## Run locally
+
+Requires Node.js and npm.
+
+```bash
+git clone https://github.com/cyenara/Memory-game.git
+cd Memory-game
+npm install
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+## How to play
+
+1. Click a card to reveal its emoji.
+2. Click a second card and try to find a matching pair.
+3. A matched pair stays visible; unmatched cards flip back.
+4. Find all 8 pairs to win. Your moves are counted every two-card attempt.
+5. Press **New Game** to start again.
+
+## About
+
+A small portfolio project for practicing React components, custom hooks, state management, array shuffling, event handling and responsive design.
